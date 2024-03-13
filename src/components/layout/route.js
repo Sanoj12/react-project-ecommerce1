@@ -14,6 +14,7 @@ function MainRouter() {
 
          <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/react-project-ecommerce1' element={<Home/>}/>
             <Route path='/logout' element={<Logout/>}/>
         <Route path='/details/:id' element={<Details/>}/>
         
